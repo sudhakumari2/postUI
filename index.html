@@ -13,7 +13,7 @@
         <meta property="og:image" content="https://i.postimg.cc/SsgDSSF0/screenshot-127-0-0-1-5500-index-html-1612297462454.png">
 
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
         <!-- Our CSS -->
         <link rel="stylesheet" href="style.css">
         <!-- Poppins Font -->
@@ -39,65 +39,65 @@
             </ul>
         </header>
         <section class="pl-3">
-            <div class="post-post">
-                <div class="post-ui-post-descrip position-relative d-flex pt-3 w-100">
-                    <div class="post-ui-img-post-div">
-                        <img class="post-pic w-100 h-100" src="images/host-pic.jpg" alt="Post Image">
+            <div class="post">
+                        <img class="post__pic" src="/host-pic.jpg" alt="Post Image">
+
+                        <div class="post__text" >Be Yourself, there's no one better. #selfie # at...</div>
+
+    
+            </div>
+            <span class="border__line"></span >
+            <div class="post-ui-location-info">
+                <div class="post-ui-location__text">Location</div>
+                <div class="address-info">
+                    <div class="address-info__wrapper">
+                        <div class="address-info__wrapper__text">El Junco Jazz</div> 
+                        <div class="address-info__wrapper__name">Madarid, Splain</div>
                     </div>
-                    <div class="post-ui-post-descrip-txt pt-4 font-weight-light pl-3">
-                        <div>Be Yourself, there's no one better. #selfie # at...</div>
-                    </div>
+                    <ion-icon class="post-ui-cross-ico position-absolute md hydrated" name="close-outline" role="img" aria-label="close outline"></ion-icon>
                 </div>
             </div>
-            <hr class="border">
-                <div class="post-ui-location-info position-relative pt-4">
-                    <div class="post-ui-location-text">Location</div>
-                    <div class="address-info position-relative pl-1 pt-2"></div>
-                        <div class="post-ui-address-txt">El Junco Jazz</div> </div>
-                        <div class="post-ui-city-name">Madarid, Splain</div>
-                        <ion-icon class="post-ui-cross-ico position-absolute md hydrated" name="close-outline" role="img" aria-label="close outline"></ion-icon>
-                    </div>
-                </div>
-            </hr>
-            <hr class="border">
-                <div class="post-ui-category-info-position-relative pt-4">
-                    <div class="post-ui-category-text">Category</div>
-                    <div class="post-ui-category-card-inside-d-line-block p-2">
-                    <span class="category-card">
-                        <div class="d-inline-block post-ui-category-img-div-mx-2">
-                            <img class="w-100 h-100 rounded-circle" src="images/music-back.jpeg" alt="music images"/>
+            <!-- </hr> -->
+            <span class="border__line"></span >
+                <div class="post-ui-category-info">
+                    <div class="post-ui-category-info__text">Category</div>
+                    <div class="post-ui-category-info__con">
+                        <div class="post-ui-category-info__con__border">
+                            <img class="post-ui-category-info__con__img" src="/music-back.jpeg" alt="music "/>
+                            <span class="post-ui-category-card-text">music</span>
                         </div>
-                        <span class="post-ui-category-card-text">music</span>
-                    </span>
+                        <span class="post-ui-change-span position-absolute align-items-center d-flex">
+                            <span class="post-ui-change-text font-weight-light">Change</span>
+                            <ion-icon class="post-ui-change-arrow-ico md hydrated" name="chevron-forward-outline" role="img" aria-label="chevron forward outline"></ion-icon>
+                        </span>
                     </div>
-                    <span class="post-ui-change-span position-absolute align-items-center d-flex">
-                        <span class="post-ui-change-text font-weight-light">Change</span>
-                        <ion-icon class="post-ui-change-arrow-ico md hydrated" name="chevron-forward-outline" role="img" aria-label="chevron forward outline"></ion-icon>
-                    </span>
+                
+                    </div>
                     </div>
             </hr>
                  
-            <hr class="border">
-                <div class="share-plateform position-relative pt-4">
-                    <div class="post-ui-share-text">Share to</div>
-                <div class="social-platforms pt-4 d-flex">
+            <span class="border__line"></span >
+                <div class="share-plateform">
+                    <div class="post-ui-share__text">Share to</div>
+                    <div class="social-platforms pt-4 d-flex">
+                        <span class="social-logo mr-3">
+                            <img  class="post-ui-social-ico" src="/insta-img.png" alt="instagram "/>
+                            <div class="post-ui-social__name">instagram</div>
+                        </span>
                     <span class="social-logo mr-3">
-                        <img  class="post-ui-social-ico rounded-circle" src="images/insta-img.png" alt="instagram images"/>
-                        <div class="post-ui-social-platform-name font-weight-light mt-1 text-center">instagram</div>
+                        <img  class="post-ui-social-ico" src="/fb-img.png" alt="instagram "/>
+                        <div class="post-ui-social__name">Facebook</div>
                     </span>
                     <span class="social-logo mr-3">
-                        <img  class="post-ui-social-ico rounded-circle" src="images/fb-img.png" alt="instagram images"/>
-                        <div class="post-ui-social-platform-name font-weight-light mt-1 text-center">Facebook</div>
-                    </span>
-                    <span class="social-logo mr-3">
-                        <img  class="post-ui-social-ico rounded-circle" src="images/twitter.png" alt="instagram images"/>
-                        <div class="post-ui-social-platform-name font-weight-light mt-1 text-center">Twitter</div>
+        
+                        <img  class="post-ui-social-ico" src="/twitter.png" alt="instagram "/>
+                        <div class="post-ui-social__name post-ui-social__name--twi">Twitter</div>
                     </span>
                 </div>
             </hr>
         </div>
         <div class="post-ui-check-logo position-fixed">
-            <img  class="w-100 rounded-circle" src="images/check-img.png" alt="check-images"/>
+            <img  class="rounded-circle" src="/check-img.png" alt="check-"/>
 
         </div>
         </section>
